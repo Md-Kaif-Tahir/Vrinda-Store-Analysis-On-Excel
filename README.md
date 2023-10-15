@@ -5,7 +5,7 @@
 _Unveiling the secrets of Vrinda Store's 2022 journey to pave the path for a booming 2023._
 
 ## Detective Author 🕵️
-- [Mohammad Kaif](https://github.com/Md-Kaif-Tahir)
+- [Mohammad Kaif Tahir](https://github.com/Md-Kaif-Tahir)
 
 ## Navigation Blueprint 🗺️
 - [Unraveling the Business Puzzle](#business-detective)
@@ -21,7 +21,7 @@ _Unveiling the secrets of Vrinda Store's 2022 journey to pave the path for a boo
 Vrinda Store is on a quest to distill the essence of its 2022 saga. The mission? To decipher the hidden patterns, unveil customer tales, and script the narrative for an encore in 2023.
 
 ## Voyage into Vrinda Dataset 🗂️
-- [Vrinda Chronicles](https://www.kaggle.com/datasets/mohammadkaiftahir/vrindra-store-analysis/settings)
+[Vrindrstore_data](https://www.kaggle.com/datasets/mohammadkaiftahir/vrindra-store-analysis/settings)
 
 ## Inquisitive Questions 🤔
 The Sherlock-style inquiries set the stage for unraveling the mystery woven in sales and order data for 2022.
@@ -38,7 +38,7 @@ The Sherlock-style inquiries set the stage for unraveling the mystery woven in s
 Summoning the powers of Exploratory Data Analysis _(EDA)_. The crystal ball for unraveling the enigmatic dataset.
 
 ## Peek into the Crystal Ball 🔮
-![enigmatic-dashboard](asset/NewDashboardGlance.png)
+![image](https://github.com/Md-Kaif-Tahir/Vrinda-Store-Analysis-On-Excel/assets/110182266/06ed6b1b-0948-40ab-838a-3d39e3c8d890)
 
 ## Dance of the Data Wizards 💃
 The steps of enchantment, transforming raw data into insights:
