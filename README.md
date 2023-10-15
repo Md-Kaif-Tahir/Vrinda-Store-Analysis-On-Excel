@@ -18,7 +18,7 @@ _Unveiling the secrets of Vrinda Store's 2022 journey to pave the path for a boo
 - [Strategic Whispers](#tactical-whispers)
 
 ## Business Detective 🔍
-Vrinda Store is on a quest to distill the essence of its 2022 saga. The mission? To decipher the hidden patterns, unveil customer tales, and script the narrative for an encore in 2023.
+Vrinda Store is like a detective trying to figure out what happened in 2022. They want to understand the hidden patterns, know what customers liked, and plan for an even better year in 2023. It's like telling a story about what happened and what's coming next.
 
 ## Voyage into Vrinda Dataset 🗂️
 [Vrindrstore_data](https://www.kaggle.com/datasets/mohammadkaiftahir/vrindra-store-analysis/settings)
