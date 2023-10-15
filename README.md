@@ -1,80 +1,86 @@
-![banner](asset/Banner.jpg)
+![image](https://github.com/Md-Kaif-Tahir/Vrinda-Store-Analysis-On-Excel/assets/110182266/244b14ad-97de-4ba5-af38-b9fb62d27b10)
 
-# Vrinda-Store-Analysis-On-Excel
-_Vrinda Store wants to create an annual sales report for 2022. So that, Vrinda can understand their customers and grow more sales in 2023._
 
-## Author
-- [@saadharoon27](https://github.com/saadharoon27)
+# Vrinda Insights 2022: Excel Unveiled 🚀
+_Unveiling the secrets of Vrinda Store's 2022 journey to pave the path for a booming 2023._
 
-## Table of Contents
-- [Business Problem](#business-problem)
-- [Data Source](#vrinda-store-dataset)
-- [Business Questions](#business-questions)
-- [Method](#method)
-- [Quick Glance At The Dashboard](#quick-glance-at-the-dashboard)
-- [Step By Step Procedure](#step-by-step-procedure)
-- [Business Insights](#business-insights)
-- [Business Suggestion](#business-suggestion)
+## Detective Author 🕵️
+- [Mohammad Kaif](https://github.com/Md-Kaif-Tahir)
 
-## Business Problem
-Vrinda Store is gearing up to compile a comprehensive annual sales report for the year 2022. This report is envisioned as a crucial tool for Vrinda's business strategy moving forward, with the primary goal of gaining valuable insights into their customer base. By analyzing the data from the past year, Vrinda aims to identify trends, patterns, and customer preferences that will enable them to make informed decisions and devise targeted marketing strategies for the upcoming year, 2023.
+## Navigation Blueprint 🗺️
+- [Unraveling the Business Puzzle](#business-detective)
+- [Data Odyssey](#voyage-into-vrinda-dataset)
+- [Curious Queries](#inquisitive-questions)
+- [Crafting the Analysis Spell](#magic-method)
+- [Snapshots of Wisdom](#peek-into-the-crystal-ball)
+- [Decoding the Steps](#dance-of-the-data-wizards)
+- [Gems of Revelation](#golden-nuggets)
+- [Strategic Whispers](#tactical-whispers)
 
-## Data Source
-- [Vrinda Store Dataset](https://www.kaggle.com/datasets/harunshah786/vrinda-store-dataset)
+## Business Detective 🔍
+Vrinda Store is on a quest to distill the essence of its 2022 saga. The mission? To decipher the hidden patterns, unveil customer tales, and script the narrative for an encore in 2023.
 
-## Business Questions
-These questions collectively aim to provide a comprehensive understanding of the sales and order data for 2022, enabling data-driven decision-making and strategy development for Vrinda Store's growth and improvement in 2023.
+## Voyage into Vrinda Dataset 🗂️
+- [Vrinda Chronicles](https://www.kaggle.com/datasets/mohammadkaiftahir/vrindra-store-analysis/settings)
 
-- 1.	Compare the sales and orders using a single chart.
-- 2.	Which month got the highest sales and orders?
-- 3.	Who purchased more? Men or women in 2022?
-- 4.	What are the different order statuses in 2022?
-- 5.	List the top 5 stats contributing to the sales.
-- 6.	Relation between age and gender based on number of orders.
-- 7.	Which channel has the maximum contribution?
+## Inquisitive Questions 🤔
+The Sherlock-style inquiries set the stage for unraveling the mystery woven in sales and order data for 2022.
 
-## Method
-- Exploratory data analysis _(EDA)_
+1. How do sales and orders dance together? A chart shall reveal.
+2. Crown the month of glory! Which month boasts the highest sales and orders?
+3. Gender saga: Who wears the crown of more purchases in 2022?
+4. Order Status Chronicles: What tales do the order statuses tell in 2022?
+5. The Fantastic Five: What states top the charts in contributing to sales?
+6. Age, Gender, Orders: A tryst with the relationship matrix.
+7. The Channel Chronicles: Which channel takes the throne of maximum contribution?
 
-## Quick Glance At The Dashboard
-![dashboard](asset/DashboardGlance.png)
+## Magic Method 🧙
+Summoning the powers of Exploratory Data Analysis _(EDA)_. The crystal ball for unraveling the enigmatic dataset.
 
-## Steps By Step Procedure
+## Peek into the Crystal Ball 🔮
+![enigmatic-dashboard](asset/NewDashboardGlance.png)
 
-- **Data Cleaning**
-  - **Gender column:** Replaced the categorical value _‘M’_ and _‘W’_ values to _‘Men’_ and _‘Women’_.
-  - **Quantity column:** Replaced the values _‘One’_ and _‘Two’_ to _‘1’_ and _‘2’_ respectively.
+## Dance of the Data Wizards 💃
+The steps of enchantment, transforming raw data into insights:
 
-- **Data Processing**
-  - **Age Group:** To address the *question vi* Of business question, a new column has to be created named **‘Age Group’** to extract the relationship between _‘Age’_, _‘Gender’_, and the _number of orders_ they made. 
-  - **Categories:** >=50, Senior; >=30 and <50, Adult; <30, Young
-  - **Month Column:** To address *question ii*, a **‘Month’** column has been created.
+- **Spell of Data Purification**
+  - **Gender Metamorphosis:** Transforming 'M' to 'Men' and 'W' to 'Women'.
+  - **Quantity Alchemy:** Turning 'One' and 'Two' into '1' and '2'.
 
-- **Analysis & Dashboarding**
-  - **Step 1:**
-    - To address _questions i_ and _ii_, created a new pivot table in sheet **‘Q1 - Order vs Sales Chart’** comparing total monthly sales value and the number of orders.
-  - **Step 2:**
-    - Created a new sheet, **‘Q3 – Most Purchases’** to analyse which gender purchased the most, addressing _question iii_.
-  - **Step 3:**
-    - Created a new sheet, **‘Q4 – Order Status’** to address _question iv_, which checks the status of the order compared to the total orders.
-  - **Step 4:**
-    - To address _question v_, a new pivot table has been made in the sheet named: **‘Q5 – Top 5 States’**.
-  - **Step 5:**
-    - To understand the relationship between _age, gender,_ and _number of orders,_ and to address _question vi_ a new sheet has been created named: **‘Q6 – Age, Gender, Orders’**.
-  - **Step 6:**
-    - Addressing _question vii_: To check which channel has the highest contribution a pivot chart has been created in sheet: **‘Q7 – Channels’**.
+- **Ritual of Data Alchemy**
+  - **Age Group Potion:** Brewing the 'Age Group' elixir to unveil the age-gender-order relationship.
+  - **Categories Incantation:** Crafting the categories for the magical analysis journey.
+  - **Month Spell:** Conjuring the 'Month' entity for the grand reveal.
 
-- **Filters**
-  - To create an interactive visual dashboard, **3 slicers** were made on: *Month, Channel,* and *Category.*
+- **Mystical Analysis & Dashboarding**
+  - **Act 1:**
+    - A pivot table spectacle in the sheet **‘Q1 - Order vs Sales Chart’** unfolds the tale of monthly sales and orders.
+  - **Act 2:**
+    - A new sheet, **‘Q3 – Most Purchases’**, lifts the veil on the gender with the shopping wand.
+  - **Act 3:**
+    - The enchanted sheet **‘Q4 – Order Status’** deciphers the order status runes.
+  - **Act 4:**
+    - Unveiling the top 5 states in **‘Q5 – Top 5 States’** for a state-of-the-art revelation.
+  - **Act 5:**
+    - The age, gender, and order trinity whispers secrets in **‘Q6 – Age, Gender, Orders’**.
+  - **Act 6:**
+    - Channeling the power of channels in **‘Q7 – Channels’**.
 
-## Business Insights
-  - 1.	Orders and sales revenue are on **decrease** since _March_.
-  - 2.	March has the highest sales **(~INR 1.92M)** and order volumes **(2819)**.
-  - 3.	_Women_ are more likely to buy compared to _men_ **(~65%)**.
-  - 4.	The majority of the orders were delivered **(92%)**.
-  - 5.	_Maharashtra, Karnataka,_ and _Uttar Pradesh_ are the **top 3** **states (~35%).**
-  - 6.	The adult age group **(30 – 49 yrs)** has a maximum contribution **(~50%)**.
-  - 7.	_Amazon, Flipkart,_ and _Myntra_ channels have maximum contribution **(~80%)**.
+- **Filters of Sorcery**
+  - Interactive visual spells with **3 enchanted slicers**: *Month, Channel,* and *Category.*
 
-## Business Suggestion
-- Target women customers of the age group (30 — 49 years) living in Maharashtra, Karnataka, and Uttar Pradesh by showing ads/offers/coupons available on Amazon, Flipkart, and Myntra.
+## Golden Nuggets 🌟
+The crystal ball reveals seven sacred scrolls of wisdom:
+
+1. The waltz of Orders and Sales descends since the March moon.
+2. March, the crowned jewel, adorned with sales (~INR 1.92M) and order volumes (2819).
+3. The feminine touch dominates (~65%) in the realm of purchases.
+4. The majority bows to the order delivery sorcery (92%).
+5. Maharashtra, Karnataka, and Uttar Pradesh hold the scepter as the top 3 states (~35%).
+6. The adult age magic (30 – 49 yrs) contributes to the grand spectacle (~50%).
+7. Amazon, Flipkart, and Myntra conjure ~80% of the mystical contribution.
+
+## Tactical Whispers 🌐
+Targeting the enchanting women in the age realm of 30 — 49, residing in the magical lands of Maharashtra, Karnataka, and Uttar Pradesh. Beckon them with mystical ads, offers, and coupons echoing through the portals of Amazon, Flipkart, and Myntra.
+
+May the sales be ever in your favor, Vrinda Store! 🌈
